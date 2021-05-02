@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238005635418",
+    "firebase_url": "https://chic-mobile-c247e.firebaseio.com",
+    "project_id": "chic-mobile-c247e",
+    "storage_bucket": "chic-mobile-c247e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238005635418:android:7044842230ac2375d94b63",
+        "android_client_info": {
+          "package_name": "org.chicdenver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238005635418-tmrhdcae7jqcf7jb74hlp89or37o0251.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.chicdenver",
+            "certificate_hash": "899927331de94a24545a3ec6411edb0e63fd929b"
+          }
+        },
+        {
+          "client_id": "238005635418-q1e40cfcqgqq1q6l0n93m6gprl7oqm10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMU08GEwUpuSrzHy7ZXZJxT_FdbZ8Sbx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238005635418-q1e40cfcqgqq1q6l0n93m6gprl7oqm10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

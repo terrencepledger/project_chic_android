@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:elevation="500dp"
+    android:outlineAmbientShadowColor="#070707">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ic_launcher_background"
+        android:elevation="1dp"
+        android:outlineAmbientShadowColor="#151515"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Create Assignment" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/assignmentMaxPointsTextInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:minWidth="115dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignmentDescTextInputLayout"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/assignmentMaxPointsInput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Max Points"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/assignmentDescTextInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minWidth="115dp"
+        app:layout_constraintEnd_toEndOf="@+id/assignmentDueDateTextInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/assignmentTitleTextInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/assignmentTitleTextInputLayout"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/assignmentDescTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:hint="Assginment Description"
+            android:inputType="textMultiLine" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/manageAssignmentSubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_submit"
+        app:layout_constraintBottom_toBottomOf="@+id/assignmentMaxPointsTextInputLayout"
+        app:layout_constraintStart_toEndOf="@+id/assignmentMaxPointsTextInputLayout"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/assignmentTitleTextInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="4dp"
+        android:hint="Title"
+        android:minWidth="115dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/assignmentTitleTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/assignmentDueDateTextInputLayout"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:hint="Due Date"
+        android:minWidth="115dp"
+        app:layout_constraintBottom_toBottomOf="@+id/assignmentTitleTextInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/assignmentDueDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

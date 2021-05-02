@@ -1,0 +1,105 @@
+<resources>
+
+    <string name="app_name">CHIC Engagement</string>
+
+    <string name="title_student">Student</string>
+    <string name="title_wf">Workforce</string>
+
+    <!-- Strings used for activities -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_student_cp">Class Portal</string>
+    <string name="title_activity_connect">Messages</string>
+    <string name="title_activity_manage_students">Manage Students</string>
+    <string name="title_activity_manage_classes">Manage Classes</string>
+    <string name="title_activity_student_grades">My Grades</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_announcements">Announcements</string>
+    <string name="ACTION_GET_FROM_GALLERY">71</string>
+    <string name="ACTION_GET_DRIVE_DOCUMENT">72</string>
+    <string name="title_activity_forms">Manage Documents</string>
+
+    <string name="GOOGLE_SIGN_IN">1</string>
+    <string name="profileItem">255</string>
+
+    <!-- Strings related to login -->
+    <string name="action_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- Strings used for basic menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_announcements">Announcements</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_exit">Logout</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_home_id">1</string>
+    <string name="menu_account_id">2</string>
+    <string name="menu_announcements_id">3</string>
+    <string name="menu_logout_id">4</string>
+    <string name="menu_connect_id">5</string>
+    <string name="menu_settings_id">6</string>
+
+    <!-- Strings used for student menu -->
+    <string name="menu_students_ac">Activity Center</string>
+    <string name="menu_students_cp">Class Portal</string>
+    <string name="menu_students_ac_id">7</string>
+    <string name="menu_students_cp_id">8</string>
+
+    <!-- Strings used for parent menu -->
+    <string name="menu_parents_children">View Students</string>
+    <string name="menu_parents_children_id">9</string>
+
+    <!-- Strings used for workforce menu -->
+    <string name="wf_id">100000</string>
+    <string name="menu_wf_jp">Job Postings</string>
+    <string name="menu_wf_forms">Manage Docs</string>
+    <string name="menu_wf_jp_id">10</string>
+    <string name="menu_wf_forms_id">11</string>
+    <string name="menu_unverified_id">12</string>
+    <string name="student_ap_upload">Upload</string>
+
+    <!-- Strings used for staff menu -->
+    <string name="menu_staff_all_students">Manage Students</string>
+    <string name="menu_staff_all_students_id">13</string>
+    <string name="menu_staff_classes">Manage Classes</string>
+    <string name="menu_staff_classes_id">14</string>
+    <string name="menu_staff_all_announcements">Manage Announcements</string>
+    <string name="menu_staff_all_announcements_id">15</string>
+
+    <!-- Strings used for unverified menu -->
+    <string name="menu_unverified">Unverified Alert</string>
+    <string name="unverified_message">CHIC Staff will need to verify your information before you have full access to the app</string>
+
+    <!-- Strings used for connect -->
+    <string name="peerConnectionTab">Peers</string>
+    <string name="connection_staff_id">100100</string>
+    <string name="connection_class_id">100200</string>
+    <string name="connection_peers_id">100300</string>
+    <string name="connection_staff_title">Teacher</string>
+    <string name="pick_user">Select Peer</string>
+    <string name="submit_message">Send</string>
+    <string name="action_submit">Submit</string>
+    <string name="connection_class_title">Class Chat</string>
+    <string name="connection_peers_title">Peers</string>
+    <string name="title_activity_home">Home</string>
+    <string name="staff_channel_id">100100</string>
+    <string name="title_activity_manage_announcements">Manage Announcements</string>
+    <string name="GMAIL_PASSWORD">chicengagement</string>
+    <string name="title_activity_parents_portal">Parents Portal</string>
+    <string name="title_activity_postings">PostingsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>

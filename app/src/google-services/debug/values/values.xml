@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">590992352274-tq7alraflr53rn92df7flerk9sb4ifk1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://project-broadcast-firebase.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">590992352274</string>
+    <string name="google_api_key" translatable="false">AIzaSyCA6BH_ixeLZJgvJgSGecHLjZ8ZieJiv5E</string>
+    <string name="google_app_id" translatable="false">1:590992352274:android:4a42e3e5d817eabda564cb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCA6BH_ixeLZJgvJgSGecHLjZ8ZieJiv5E</string>
+    <string name="google_storage_bucket" translatable="false">project-broadcast-firebase.appspot.com</string>
+    <string name="project_id" translatable="false">project-broadcast-firebase</string>
+</resources>
